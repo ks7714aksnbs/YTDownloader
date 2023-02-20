@@ -1,6 +1,7 @@
 # YTDownloader
 
 YTDownloader (Definitely open to a more creative name ideas for the program)
+
 This program lets you download media from YouTube without going through a dozen ads on some shady website that will embed some highly innacurate metadata.
 
 Discalimer : I do not promote the use of downloaded media unless absolutely necessary, It is highly recommended that you watch content directly from YouTube and support creators.
@@ -11,15 +12,15 @@ Discalimer : I do not promote the use of downloaded media unless absolutely nece
 1. Downloads MP3 & MP4 Files.
 2. Supports Bulk Downloads From Lists.
 3. Download youtube playlists without individually going through each video.
-4. You can embed metadata on your own to insure accuracy.
+4. You can embed metadata on your own to insure accuracy for organisation and data management.
 5. Option to override default album_art and embed preferred or custom album_art.
-6. Files are downloaded pre-organised in folders with respect to the user's preference.
+6. Downloaded Files are  pre-organised in folders with respect to the user's preference.
 
 # How to use the program
 
-Currently the program supports windows environment only, however with a few turn arounds in the activation of virtual environment through zsh or bash, you can get it up and running on a mac or linux too.
+Currently the program supports windows environment only, however with a few tweaks in the activation of virtual environments for zsh or bash; you can get it up and running on a mac or linux too.
 
-1. First download the program on your system, you could do this from the github gui or git clone shone as follows :
+1. First download the program on your system, you could do this through the Github GUI or git clone :
 
 ```       
 git clone git@github.com:ks7714aksnbs/YTDownloader.git
@@ -36,7 +37,7 @@ git clone https://github.com/ks7714aksnbs/YTDownloader.git
 winget install  Python.Python.3.11
 ```
 
-3. Once the download is completed, open powershell or command prompt and type (This step is necessary to avoid any ffmpeg related errors) :
+3. Once the download is completed, open powershell or command prompt and type :
 
 ```
 cd <path_to_file>
@@ -51,10 +52,12 @@ pip install -r requirements.txt
 pip install -r requirements.txt
 ```
 
+(This step is necessary to avoid any ffmpeg related errors)
+
 
 3. Minimise the terminal and paste all the links in the music.xlsx,podcasts.xlsx or video.xlsx based on your preference in the Data Folder. 
 
-4. You could also add metadata if you choose to do so, just make sure you don't leave the title field blank.
+4. You could also add metadata if you choose to do so, just make sure you don't leave the "title" field blank.
 
 5. Once you've added all the links to your preferred files then head back to the terminal and type:
 
@@ -80,7 +83,7 @@ The following are some improvements that you can expect in the future :
 4. An interactive and fully functional GUI
 5. A better multi-platform support.
 
-Please note, I'm a student and my code might not be the best in terms of efficiency, therefore any critiques and contribution to the program through better code and functionality implementations to better ideas are much appreciated :)
+Please note, I'm a student and my code might not be the best in terms of efficiency, therefore any critiques and contribution to the program's code and functionality are much appreciated :)
 
 Thank you for using the program :)
 
