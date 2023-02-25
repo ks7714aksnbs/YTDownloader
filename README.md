@@ -1,6 +1,6 @@
 # YTDownloader
 
-YTDownloader (Definitely open to a more creative name ideas for the program)
+YTDownloader (Definitely open to more creative name ideas for the program)
 
 This program lets you download media from YouTube without going through a dozen ads on some shady website that will embed some highly innacurate metadata.
 
